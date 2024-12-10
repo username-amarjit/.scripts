@@ -1,0 +1,14 @@
+git add .
+
+git commit -m "automated closing commit at %date% %time%" 
+
+
+git pull --all
+
+git push --all origin
+
+git pull --all
+
+cd ..
+
+rmdir /s /q study-docs
