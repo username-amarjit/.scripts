@@ -1,0 +1,12 @@
+git clone https://github.com/username-amarjit/study-docs.git
+
+cd .scripts
+
+python -m venv env
+
+env\Scripts\activate
+
+npm i
+
+echo env >> .gitignore
+echo node_modules >> .gitignore
